@@ -1,5 +1,5 @@
 {
-  "name": "ide-svelte",
+  "name": "language-svelte",
   "version": "0.1.1",
   "main": "./lib/main.js",
   "description": "Syntax, diagnostics, and other smarts for svelte",
