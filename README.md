@@ -1,35 +1,22 @@
-# Svelte for Atom
+# language-svelte
 
-Provides syntax highlighting and rich intellisense for Svelte components in Atom, utilising the [svelte language server](https://github.com/UnwrittenFun/svelte-language-server).
+It's forked from [UnwrittenFun/svelte-atom](https://github.com/UnwrittenFun/svelte-atom) and it only includes the grammar. a.k.a. the syntax highlighting
 
-## Features
+## Table of Contents
 
--   Svelte
-    -   Diagnostic messages for warnings and errors
-    -   Support for svelte preprocessors that provide source maps
--   HTML
-    -   Hover info
-    -   Autocompletions
-    -   [Emmet](https://emmet.io/)
-    -   Formatting
-    -   Symbols in Outline panel
--   CSS / SCSS / LESS
-    -   Diagnostic messages for syntax and lint errors
-    -   Hover info
-    -   Autocompletions
-    -   Formatting (via [prettier](https://github.com/prettier/prettier))
-    -   [Emmet](https://emmet.io/)
-    -   Color highlighting and color picker
-    -   Symbols in Outline panel
--   TypeScript / JavaScript
-    -   Diagnostics messages for syntax and semantic errors
-    -   Hover info
-    -   Formatting (via [prettier](https://github.com/prettier/prettier))
-    -   Symbols in Outline panel
++ [Build](#build)
++ [Copying, license, and contributing](#copying-license-and-contributing)
 
-More features coming soon.
+## Build
 
-## See Also
+`npm run prd`
 
--   [Svelte Language Server](https://github.com/UnwrittenFun/svelte-language-server)
--   [Svelte VS Code](https://github.com/UnwrittenFun/svelte-vscode)
+## Copying, license, and contributing
+
+Copyright (C) Tony Crowe 2020 <https://tcrowe.github.io/contact/>
+
+Thank you for using and contributing to make module-name better.
+
+⚠️ Please run `npm run prd` before submitting a patch.
+
+⚖️ module-name is Free Software protected by the GPL 3.0 license. See [./COPYING](./COPYING) for more information. (free as in freedom)
