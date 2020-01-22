@@ -2,6 +2,8 @@
 
 It's forked from [UnwrittenFun/svelte-atom](https://github.com/UnwrittenFun/svelte-atom) and it only includes the grammar. a.k.a. the syntax highlighting
 
+I first tried to [create a tree-sitter grammar](https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/) but it defeated me. If you know how to do that it might be helpful if we can collaborate.
+
 ## Table of Contents
 
 + [Development](#development)
