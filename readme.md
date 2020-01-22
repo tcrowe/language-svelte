@@ -15,8 +15,8 @@ It's forked from [UnwrittenFun/svelte-atom](https://github.com/UnwrittenFun/svel
 
 Copyright (C) Tony Crowe 2020 <https://tcrowe.github.io/contact/>
 
-Thank you for using and contributing to make module-name better.
+Thank you for using and contributing to make language-svelte better.
 
 ⚠️ Please run `npm run prd` before submitting a patch.
 
-⚖️ module-name is Free Software protected by the GPL 3.0 license. See [./COPYING](./COPYING) for more information. (free as in freedom)
+⚖️ language-svelte inherits MIT license from parent project [UnwrittenFun/svelte-atom](https://github.com/UnwrittenFun/svelte-atom)
