@@ -4,10 +4,17 @@ It's forked from [UnwrittenFun/svelte-atom](https://github.com/UnwrittenFun/svel
 
 ## Table of Contents
 
-+ [Build](#build)
++ [Development](#development)
++ [Production](#production)
 + [Copying, license, and contributing](#copying-license-and-contributing)
 
-## Build
+## Development
+
+To test locally clone the repository and `apm link` in it.
+
+Reference &lt;./test/svelte-syntax-test.svelte> for viewing how the editor response to the grammar file in &lt;./grammars/svelte.json>.
+
+## Production
 
 `npm run prd`
 

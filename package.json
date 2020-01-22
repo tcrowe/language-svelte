@@ -1,19 +1,32 @@
 {
   "name": "language-svelte",
-  "version": "0.1.1",
-  "main": "./lib/main.js",
-  "description": "Syntax, diagnostics, and other smarts for svelte",
+  "version": "0.1.0",
+  "description": "Svelte syntax highlighting",
+  "license": "MIT",
+  "homepage": "https://github.com/tcrowe/language-svelte#readme",
+  "repository": {
+    "type": "https",
+    "url": "https://git@github.com/tcrowe/language-svelte.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tcrowe/language-svelte/issues"
+  },
   "keywords": [
     "language",
     "grammar",
     "svelte"
   ],
-  "repository": "https://github.com/tcrowe/language-svelte",
-  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {},
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
+    "remark-cli": "^7.0.1",
+    "remark-lint": "^6.0.5",
+    "remark-toc": "^7.0.0"
+  },
   "scripts": {
     "prd-remark": "remark . -o",
     "prd": "run-s -s 'prd-*'"
@@ -35,12 +48,5 @@
       ]
     ],
     "output": true
-  },
-  "devDependencies": {
-    "npm-run-all": "^4.1.5",
-    "prettier": "^1.19.1",
-    "remark-cli": "^7.0.1",
-    "remark-lint": "^6.0.5",
-    "remark-toc": "^7.0.0"
   }
 }
