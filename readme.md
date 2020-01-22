@@ -14,7 +14,7 @@ I first tried to [create a tree-sitter grammar](https://flight-manual.atom.io/ha
 
 To test locally clone the repository and `apm link` in it.
 
-Reference &lt;./test/svelte-syntax-test.svelte> for viewing how the editor response to the grammar file in &lt;./grammars/svelte.json>.
+Reference [./test/svelte-syntax-test.svelte](./test/svelte-syntax-test.svelte) for viewing how the editor response to the grammar file in [./grammars/svelte.json](./grammars/svelte.json).
 
 ## Production
 
